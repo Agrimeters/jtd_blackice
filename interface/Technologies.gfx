@@ -3571,7 +3571,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/nuclear_reactor.dds"
 	}	
 	
-	******* Special radio techs
+	#******* Special radio techs
 	
 	SpriteType = {
 		name = "GFX_recon_radio_medium"
