@@ -1,0 +1,86 @@
+###################################  Heavy AT
+
+sub_units = {
+
+	anti_tank_heavy = {
+		sprite = anti_tank
+		map_icon_category = infantry
+		priority = 0
+		active = yes
+		
+		group = support
+		
+		type = {
+			infantry
+			support
+		}
+		
+		categories = {
+			category_front_line
+			category_support_battalions
+			category_army
+		}
+
+
+		combat_width = 0.0
+
+		need = {
+			HVanti_tank_equipment = 12
+			motorized_equipment = 14 # truck pulled
+		}
+		manpower = 300
+		max_organisation = 0
+		default_morale = 0
+		max_strength = 3
+		training_time = 120
+		weight = 0.1
+
+		can_be_parachuted = no
+		
+		supply_consumption = 0.1
+
+		transport = motorized_equipment 
+
+		plains = {
+			 defence = 0.05
+			 movement = -0.02
+			 attack = -0.02
+		}
+		desert = {
+			 defence = 0.05
+			 movement = -0.02
+			 attack = -0.02
+		}
+		forest = {
+		    attack = -0.05
+			movement = -0.04
+		}
+		hills = {
+		    attack = -0.02
+			movement = -0.02
+		}
+		mountain = 	{
+		    attack = -0.02
+			movement = -0.04
+		}
+		jungle = {
+		    attack = -0.07
+			movement = -0.03
+		}
+		marsh = {
+		    attack = -0.06
+			movement = -0.03
+		}
+		fort = {
+			attack = 0.07
+		}
+		river = { 
+			attack = -0.05
+			movement = -0.03
+		}
+		amphibious = { 
+			attack = -0.10
+			movement = -0.03
+		}
+	}
+}

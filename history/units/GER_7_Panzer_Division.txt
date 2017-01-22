@@ -1,0 +1,13 @@
+﻿
+
+units = {
+
+	division = {	
+		name = "7. Panzer-Division"
+		location = 9497
+		division_template = "Panzer-Division '1936 '"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.6
+	}
+}
+
